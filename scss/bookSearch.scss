@@ -67,11 +67,18 @@ button {
   margin: 100px 100px;
   .list {
     width: 100%;
-    flex-wrap: wrap;
     color: #fff;
     line-height: 1.5;
+    li {
+      display: flex;
+      p {
+        display: block;
+      }
+    }
     img {
       width: 100px;
+      padding-right: 50px;
+      padding-bottom: 50px;
     }
   }
 }

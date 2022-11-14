@@ -57,9 +57,11 @@
             let listHtml = "";
             for (let i = 0; i < documents.length; i++) {
               listHtml += `<li><a href=""><img src="${documents[i].thumbnail}"></a>
+                <div class="text">
                 <p>${documents[i].authors.join("/")}</p>
                 <p>${documents[i].publisher}</p>
                 <p>${documents[i].contents}</p>
+                </div>
                 </li>`;
             }
             $(".result .list").html(listHtml);

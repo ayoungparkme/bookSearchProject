@@ -69,10 +69,17 @@ button {
 }
 .result .list {
   width: 100%;
-  flex-wrap: wrap;
   color: #fff;
   line-height: 1.5;
 }
+.result .list li {
+  display: flex;
+}
+.result .list li p {
+  display: block;
+}
 .result .list img {
   width: 100px;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
